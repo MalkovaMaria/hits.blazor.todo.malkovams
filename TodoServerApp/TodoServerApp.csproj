@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-TodoServerApp-12a23202-e70b-449d-8795-47f1e7a456bb</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.34" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.34" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.34" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.34" />
+  </ItemGroup>
+
+</Project>
